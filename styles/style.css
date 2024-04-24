@@ -1,0 +1,143 @@
+body{
+    background-image: linear-gradient(to left, #ba5f5e,#2949E5);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    /* margin: 0 auto;
+    padding: 15px;
+     */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1{
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: poppinsmedium;
+    font-weight: 400;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    
+    margin-top: 30px;
+    font-size: 12px;
+    max-width: 700px;
+    font-family: poppinsmedium;
+}
+
+ img{
+    width: 580px;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    padding: 10px 8px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #183b8f;
+    border: 1px solid #183b8f;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
